@@ -10,6 +10,7 @@ A Figura 1 mostra uma parte do arquivo **create_dat.py**.
 Para determinar a(s) energia(s) do feixe incidente altere a linha 31, o nome do arquivo de geomtria é modificado na linha 34, o(s) material(ais) do detector pode ser alterado na linha 37 e o número de histórias pode ser alterado na linha 40.
 
 ![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/f06ea247-2b84-4dae-80a6-e0f22114184d)
+
 Figura 1 - Print screen do arquivo **create_dat.py**
 
 
@@ -17,6 +18,7 @@ No arquivo **general.cfg** é possível determinar o núnero máximo de simulaç
 Na figura abaixo o valor é 16, o que significa que 16 threads serão usadas nesta automatização.
 
 ![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/8621a028-c915-4585-b47f-5de0ccb0cde9)
+
 Figura 2- Arquivo **general.cfg**
 
 
