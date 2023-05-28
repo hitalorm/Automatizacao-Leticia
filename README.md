@@ -3,7 +3,16 @@
 Automatização para salvar a energia depositada em um material usando o _tallyEnergyDeposition_ e salvar o arquivo de saída do _tallyPixelImageDetector_
 Esta é uma versão simples da automatização, em que somente a energia inicial é mudada.
 
-Posição da fonte, tipo e tamanho de campo, material, etc, serão vari
+
+Posição da fonte, tipo e tamanho de campo, material, etc, deverão ser setadas manualmente pelo usuário.
+
+
+Bibliotecas Python necessárias (que não são built-in)
+pandas
+numpy
+regex
+
+
 Comece acessando o arquivo **create_dat.py**.
 
 A Figura 1 mostra uma parte do arquivo **create_dat.py**.
