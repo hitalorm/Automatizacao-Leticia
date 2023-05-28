@@ -19,6 +19,8 @@ Na figura abaixo o valor é 16, o que significa que 16 threads serão usadas nes
 
 ![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/8621a028-c915-4585-b47f-5de0ccb0cde9)
 
+<p align="center">
 **Figura 2- Arquivo **general.cfg****
+</p>
 
 
