@@ -1,0 +1,301 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>> This is penEasy v.2015-05-30 >>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ 
+Program started on 29 May 2023  09:28:43                                                                               
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[SECTION CONFIG v.2013-03-18]
+No. of histories requested: 
+ 2.00000E+05
+Allotted time (s):
+ 1.00000E+30
+Update interval:
+ 6.00000E+01
+Random seeds:
+ 1208061081 1696464537
+Simulation dump requested. Dump file name:
+ penEasy.dmp                                                                     
+Interval between dumps:
+ 1.80000E+03
+>>>> Config initialization finished >>>>
+  
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[SECTION SOURCE BOX ISOTROPIC GAUSS SPECTRUM v.2014-12-21]
+Memory used by static arrays (MB):
+  7.68000E-01
+Particle type:
+ 2
+Photon polarization physics:
+  not activated
+Coordinates of box center (cm):
+  0.00000E+00  0.00000E+00  6.00000E+01
+Box sides (cm):
+  0.00000E+00  0.00000E+00  0.00000E+00
+FWHMs of x and y distribs. (cm):
+  0.00000E+00  0.00000E+00
+Euler angles for box rotation (deg):
+  0.00000E+00  0.00000E+00  0.00000E+00
+Translation of box center (cm):
+  0.00000E+00  0.00000E+00  0.00000E+00
+Source material:
+ 0
+Direction vector (u,v,w):
+  0.00000E+00  0.00000E+00 -1.00000E+00
+Polar angle interval, [theta0,theta1](deg):
+  0.00000E+00  0.00000E+00
+Azimuthal angle interval, phi0 and Dphi (deg):
+  0.00000E+00  3.60000E+02
+Apply to direction same rotation use for box position?
+ Yes
+Reading energy spectrum from config file.
+  Energy(eV)  Relat.Probability   Bin#
+  9.00000E+04  1.00000E+00 1
+  9.00000E+04 -1.00000E+00 2
+No. of bins read:
+ 1
+Sum of relative probabilities before normalization:
+  1.00000E+00
+FWHM of Gaussian energy distrib. (eV):
+  0.00000E+00
+>>>> BIGS source initialization finished >>>>
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[SECTION SOURCE PHASE SPACE FILE v.2009-06-15]
+>>>> Source Phase Space File is OFF >>>>
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[SECTION PENGEOM+PENVOX v.2009-06-15]
+ 
+>>>> Initializing quadric geometry >>>>
+Opening quadric geometry file:
+ phantom.geo                                                                     
+Now calling PENGEOM...
+ 
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   1)   Plane Z=0.00                                        
+INDICES=( 0, 0, 0, 1, 0)
+Z-SHIFT=(-5.000000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   2)   Plane Z=15.00                                       
+INDICES=( 0, 0, 0, 1, 0)
+Z-SHIFT=( 5.000000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   3)   Plane X=5.50                                        
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 0.000000000000000E+00,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+X-SHIFT=( 5.000000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   4)   Plane X=-5.50                                       
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 0.000000000000000E+00,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+X-SHIFT=(-5.000000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   5)   Plane Y=11.50                                       
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 9.000000000000000E+01,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+    PHI=( 1.570796326794896E+00,   0) RAD   
+Y-SHIFT=( 5.000000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   6)   Plane Y=-11.50                                      
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 9.000000000000000E+01,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+    PHI=( 1.570796326794896E+00,   0) RAD   
+Y-SHIFT=(-5.000000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   7)   Plane Z=0.00                                        
+INDICES=( 0, 0, 0, 1, 0)
+Z-SHIFT=(-2.500000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   8)   Plane Z=15.00                                       
+INDICES=( 0, 0, 0, 1, 0)
+Z-SHIFT=( 2.500000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (   9)   Plane X=5.50                                        
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 0.000000000000000E+00,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+X-SHIFT=( 0.000000000000000E+00,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  10)   Plane X=-5.50                                       
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 0.000000000000000E+00,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+X-SHIFT=( 2.500000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  11)   Plane Y=11.50                                       
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 9.000000000000000E+01,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+    PHI=( 1.570796326794896E+00,   0) RAD   
+Y-SHIFT=( 0.000000000000000E+00,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  12)   Plane Y=-11.50                                      
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 9.000000000000000E+01,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+    PHI=( 1.570796326794896E+00,   0) RAD   
+Y-SHIFT=( 2.500000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  13)   Cylinder R=1.00                                     
+INDICES=( 1, 1, 0, 0,-1)
+X-SCALE=( 1.250000000000000E-01,   0)       
+Y-SCALE=( 1.250000000000000E-01,   0)       
+X-SHIFT=(-2.500000000000000E-01,   0)       
+Y-SHIFT=(-2.500000000000000E-01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  14)   Plane Z=0.00                                        
+INDICES=( 0, 0, 0, 1, 0)
+Z-SHIFT=(-1.000000000000000E+01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  15)   Plane Z=15.00                                       
+INDICES=( 0, 0, 0, 1, 0)
+Z-SHIFT=(-1.010000000000000E+01,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  16)   Plane X=5.50                                        
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 0.000000000000000E+00,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+X-SHIFT=( 1.408000000000000E+00,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  17)   Plane X=-5.50                                       
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 0.000000000000000E+00,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+X-SHIFT=(-1.408000000000000E+00,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  18)   Plane Y=11.50                                       
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 9.000000000000000E+01,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+    PHI=( 1.570796326794896E+00,   0) RAD   
+Y-SHIFT=( 1.408000000000000E+00,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+SURFACE (  19)   Plane Y=-11.50                                      
+INDICES=( 0, 0, 0, 1, 0)
+  OMEGA=( 9.000000000000000E+01,   0) DEG   
+  THETA=( 9.000000000000000E+01,   0) DEG   
+    PHI=( 1.570796326794896E+00,   0) RAD   
+Y-SHIFT=(-1.408000000000000E+00,   0)       
+0000000000000000000000000000000000000000000000000000000000000000
+MODULE  (   1)   OBJETO                                              
+MATERIAL(   1)
+SURFACE (   3), SIDE POINTER=(-1)
+SURFACE (   4), SIDE POINTER=( 1)
+SURFACE (   5), SIDE POINTER=(-1)
+SURFACE (   6), SIDE POINTER=( 1)
+SURFACE (   1), SIDE POINTER=( 1)
+SURFACE (   2), SIDE POINTER=(-1)
+0000000000000000000000000000000000000000000000000000000000000000
+MODULE  (   2)   DETECTOR                                            
+MATERIAL(   2)
+SURFACE (  16), SIDE POINTER=(-1)
+SURFACE (  17), SIDE POINTER=( 1)
+SURFACE (  18), SIDE POINTER=(-1)
+SURFACE (  19), SIDE POINTER=( 1)
+SURFACE (  15), SIDE POINTER=( 1)
+SURFACE (  14), SIDE POINTER=(-1)
+0000000000000000000000000000000000000000000000000000000000000000
+END      0000000000000000000000000000000000000000000000000000000
+
+
+
+*****************************************
+****     PENGEOM (version 2014)      ****
+****  Constructive Quadric Geometry  ****
+*****************************************
+
+
+
+************  Genealogical tree. 
+
+
+*** MODULE =    1,  KMOTH =    3,  MAT =  1
+KDGHT =    1
+KSURF =    3    4    5    6    1    2   20
+KFLAG =    1    2    1    2    2    1    1
+
+*** MODULE =    2,  KMOTH =    3,  MAT =  2
+KDGHT =    2
+KSURF =   16   17   18   19   15   14   20
+KFLAG =    1    2    1    2    2    1    1
+
+*** MODULE =    3,  KMOTH =    0,  MAT =  0
+KDGHT =    1    2    3
+KSURF =   20    3    4    5    6    1    2   16   17   18   19   15   14
+KFLAG =    1    4    4    4    4    4    4    4    4    4    4    4    4
+
+
+************  Adequacy of the geometry definition.
+
+The largest number of bodies in a module or
+     bodies limiting a single body is ............    3
+
+The largest number of limiting surfaces for
+     a single body or module is ..................   13
+
+
+The simulation of this geometry is expected to be slow,
+     try to split complex bodies into several modules.
+
+************  The end.
+ 
+>>>> Quadric geometry initialization finished >>>>
+ 
+No voxels geometry file defined.
+ 
+No. of materials referenced in the geometry:
+ 2
+ 
+>>>> Geometry initialization finished >>>>
+ 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[SECTION PENELOPE v.2009-10-01]
+ 
+MAT#  FILENAME             EABS(e-)  EABS(ph)  EABS(e+)  C1        C2        WCC       WCR       DSMAX
+ 1    Si.mat               1.000E+10 1.000E+03 1.000E+05 1.000E-01 1.000E-01 1.000E+05 1.000E+04 1.000E+30
+ 2    PMMA.mat             1.000E+10 1.000E+03 1.000E+05 1.000E-01 1.000E-01 1.000E+05 1.000E+04 1.000E+30
+ 
+Now calling PEINIT...
+ 
+
+ **********************************
+ **   PENELOPE  (version 2014)   **
+ **********************************
+
+ WARNING: EABS(1, 1) has been modified.
+
+ WARNING: EABS(3, 1) has been modified.
+
+ WARNING: EABS(1, 2) has been modified.
+
+ WARNING: EABS(3, 2) has been modified.
+
+ EMIN = 1.0000E+03 eV,  EMAX = 9.0090E+04 eV
+
+
+ **********************
+ **   1st material   **
+ **********************
+
+ Material data file: Si.mat              
+
+ *** Simulation parameters:
+     Electron absorption energy = 9.0081E+04 eV
+       Photon absorption energy = 1.0000E+03 eV
+     Positron absorption energy = 9.0081E+04 eV
+      C1 = 1.0000E-01,       C2 = 1.0000E-01
+     WCC = 9.0081E+04 eV,   WCR = 1.0000E+03 eV
+
+ PENELOPE (v. 2014)  Material data file ...............
+ Material: POLYMETHYL METHACRALATE (LUCITE, PERSPEX, PLEXIGLASS)  (224)  
+ Mass density = 1.19000000E+00 g/cm**3
+ Number of elements in the molecule =  3
+    Element: H  (Z= 1), atoms/molecule = 8.00000000E+00
+    Element: C  (Z= 6), atoms/molecule = 5.00000000E+00
+    Element: O  (Z= 8), atoms/molecule = 2.00000000E+00
+ Mean excitation energy = 7.40000000E+01 eV
