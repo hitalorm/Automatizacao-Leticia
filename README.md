@@ -69,8 +69,19 @@ Se responder 'y' ocorrerá o seguinte:
 ![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/38ae4b4a-9fc7-4d08-87fd-bbaf4ce11561)
 
 Se responder 'n' e algumas simulações já foram realizadas ocorrerá o seguinte:
+![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/e00c415c-cc51-4ce7-af7f-8e700d741f16)
 
 
+![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/3e240f18-6081-4728-8175-700345f69612)
+
+
+Uma vez que uma simulação termine a seguinte mensagem aparecerá:
+
+![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/2bb0b926-0b86-4460-9eef-9efa1865ed4c)
+
+Nesta etapa os arquivos de resultado estão sendo lidos e as variáveis de interesse estão sendo salvas no **dataframe.csv**, como pode ser visualizado na imagem abaixo:
+
+![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/955548ca-056f-4b31-aaae-9acebed45583)
 
 
 
