@@ -32,13 +32,13 @@ Na figura abaixo o valor é 16, o que significa que 16 threads serão usadas nes
 
 ![image](https://github.com/hitalorm/Automatizacao-Leticia/assets/32619150/8621a028-c915-4585-b47f-5de0ccb0cde9)
 
-**IMPORTANTE**
-
-Caso você queira fazer simulações com mais de um thread é necessário copiar a pasta '0' e renomeá-la. Se forem 2 threads deve ter a pasta '0' e '1', se forem 3 threads deve conter as pastas '0' '1' e '2' e assim em diante.
-
 <p align="center">
 Figura 2- Arquivo general.cfg
 </p>
+
+**IMPORTANTE**
+
+Caso você queira fazer simulações com mais de um thread é necessário copiar a pasta '0' e renomeá-la. Se forem 2 threads deve ter a pasta '0' e '1', se forem 3 threads deve conter as pastas '0' '1' e '2' e assim em diante.
 
 O próximo passo é editar o arquivo **main.py**
 
