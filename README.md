@@ -1,7 +1,7 @@
 # Automatização para o código de simulação Monte Carlo PENELOPE
 
 Automatização para salvar a energia depositada em um material usando o _tallyEnergyDeposition_ e salvar o arquivo de saída do _tallyPixelImageDetector_.
-Esta é uma versão simples da automatização, em que somente a energia inicial é mudada.
+Esta é uma versão simples da automatização, em que somente a energia inicial, número de histórias e material de detecção podem ser mudados.
 
 
 Posição da fonte, tipo e tamanho de campo, material, etc, deverão ser setadas manualmente pelo usuário.
