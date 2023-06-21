@@ -71,7 +71,7 @@ Logo abaixo os valores são salvos no arquivo **dataframe.csv**, sendo que no ca
 Figura 5 - Print screen do arquivo main.py mostrando as etapas de coleção dos resultados.  
 </p>
 
-Além disso, caso queira salvar o arquivo de resultado do **tallyPixelImageDetect** é necessário editar as linhas 147 e 148, sendo que a primeira é para determinar a localização (no caso da figura pasta v1) e o nome (no caso da figura foi (energia+ '-' + material + '.dat')
+Além disso, caso queira salvar o arquivo de resultado do **tallyPixelImageDetect** é necessário editar as linhas 147 e 148, sendo que a primeira é para determinar a localização (no caso da figura pasta v1) e o nome (no caso da figura foi (energia+ '-' + material + '.dat'). Caso não for usar o **tallyPixelImageDetect** é necessário comentar as linhas 147 e 148.
 
 Para iniciar as simulações entre no terminal e digite **python3 main.py** e aparecerá a seguinte pergunta:
 
